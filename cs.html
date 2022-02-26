@@ -1,0 +1,249 @@
+<html>
+
+<head>
+<link src="form.php">
+
+
+
+    <style>
+    body{background-color: white;
+        
+       width:100%;
+       height:100%
+      font-family Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    }
+
+    .head{
+       
+        font-size: 5em;
+font-family:sans-serif;
+    }
+.head img{
+          width:7em;
+
+
+}
+.nav{
+    width:100%;
+    display:inline-flex;
+    background-color: blanchedalmond;
+
+}
+.nav ul{
+    display:inline-flex;
+    text-align:center;
+    font-size:3rem;
+    font-weight:2.5px;
+   list-style-type: none;
+margin:3rem;   
+
+
+}
+
+.nav li{padding:2rem;
+    margin-left: 3rem;
+    
+}
+.nav li:hover{
+    border-radius:2pc;
+    cursor:pointer;
+    background-color:violet;
+    display:block;
+    
+
+}
+
+
+
+.container{
+    width:100%;
+    
+}
+
+.boxes{
+
+    display:inline-block;
+    height:auto;
+  background: none;
+  align-content: center;
+}
+
+#box{
+     
+  
+    display:inline-block;
+   align-items:center;
+   margin-left:50pc;
+   margin-top:10pc;
+text-align:center;
+width:10%;
+align-content: center;
+padding:auto;}
+
+
+#box img{justify-content: center;
+align-items:center;
+size:10%;}
+
+#box h3{
+    font-size:5pc;
+}
+
+#box h4{
+    text-align: center;
+font-size: 3pc;
+}
+ 
+#box p{
+    
+    
+    padding:auto;
+    font-size:23px;
+    overflow-y: hidden;
+}
+
+.form{
+    
+
+
+
+margin-top:20pc;
+margin-left:20pc;
+border:none;
+width:32%;
+
+
+}
+
+.form input{
+ 
+    size:34pc;
+    height:2pc;
+    width:70em;
+    margin-top:2pc;
+    margin-left:26pc;
+    align-items:center;
+    padding:2pc;
+    text-decoration: solid;
+    font-size:2pc;
+
+}
+
+.form button{
+    margin-left:26pc;
+    padding:2px;
+    width:50%;
+    height:4pc;
+    margin-top:3pc;
+    font-size:3pc;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:initial;
+ background-color: blanchedalmond;
+ border-radius: 1rem;
+
+}
+
+
+.form button:hover{
+    background-color:hotpink ;
+
+}
+
+ </style>
+
+ <script>
+
+function fun(){
+    prompt("Submit sucessfully");
+}
+
+     </script>
+
+     
+    <meta charset="utf-8" >
+    <title>CS.sports</title>
+</head>
+
+
+<body>
+
+    <header>
+        <section class="head">
+           
+            <img src="logo.jpg">
+             
+        </section>
+    </header>
+
+<nav class="nav">
+<ul>
+<li>Football</li>
+<li>Cricket</li>
+<li>hockey</li>
+<li>basketball</li>
+</ul>
+
+</nav>
+
+
+
+<div class="container">
+
+<section class="boxes">
+
+   <div id="box">     
+      <img src="football.jpg" >
+         <h3>football</h3>
+            <h4>color:white 
+    style:italic
+    price:$24
+</h4>
+<p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+
+
+<div id="box">
+ <img src="bet.jpg" >
+ <h3>cricket</h3>
+<h4>color:brown
+    brand:reebok
+    price:$10
+</h4>
+<p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+
+
+
+<div id="box">
+ <img src="badminton.jpg" >
+ <h3>badminton</h3>
+<h4>color:red
+    brand:yonex
+    price:$90
+</h4>
+<p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+</section>
+ 
+ 
+   <footer>
+       <form action ="CS.php" method="post" class="form">
+
+ <input type="text" placeholder=" Enter Name">
+ <br>
+ <input type="email" placeholder=" Enter Email">
+ <br>
+ <input type="int" placeholder="Enter Mobile">
+ <br>
+ <input type="text" placeholder="Coment">
+ <br>
+ <button type="submit" onclick="fun">submit</button>
+
+
+</form>
+  </footer> 
+
+</body>
+</html>
